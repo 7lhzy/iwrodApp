@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="add_newword"
+        android:title="查词历史自动加入生词本"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="remind"
+        android:title="首页提醒最近学习"/>
+    <Preference
+        android:key="clear_cache"
+        android:title="清除缓存"/>
+    <Preference
+        android:key="check_update"
+        android:title="检查更新"/>
+    <Preference
+        android:key="about"
+        android:title="关于"/>
+
+</PreferenceScreen>
